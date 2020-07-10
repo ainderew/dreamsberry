@@ -1,0 +1,12 @@
+.inner{
+    width: 80vw;
+    height: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 2rem;
+    grid-auto-rows: auto;
+    place-items: center;
+    // margin: 10rem 0;
+}
+

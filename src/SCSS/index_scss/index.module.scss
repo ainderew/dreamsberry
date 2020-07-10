@@ -1,12 +1,136 @@
-.homepage{
-    height: 100%;
-    width: 100%;
-    
+.homepage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
 }
 
-.hero{
-   height: 80vh;
-   width: 100%;
-   background: url(../../assets/Images/hero-banner.jpg) no-repeat center;
-//    background-size: ;
+.hero {
+  height: 85vh;
+  width: 100%;
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+    // background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+
+  .hero-img {
+    height: 100%;
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.116));
+    z-index: 2;
+    margin-left: 15rem;
+  }
+
+
+  .water-mark {
+    position: absolute;
+    font-size: 12rem;
+    left: 0;
+    top: 5%;
+    font-weight: 900;
+    color: #e6ba8042;
+  }
+}
+
+
+.tagline-container{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-25%, -50%);
+    
+    .h1{
+        font-size: 3.7rem;
+        font-weight: 700;
+        // color: #fff;
+    }
+    .h2{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .p{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .button{
+        width: 10rem;
+        height: 2.5rem;
+        
+        font-size: 1rem;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1366px){
+
+  
+  .hero {
+    height: 85vh;
+    width: 100%;
+    // background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+      background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  
+    .hero-img {
+      height: 100%;
+      filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.116));
+      // z-index: 0;
+      margin-left: 10rem;
+    }
+  
+  
+    .water-mark {
+      position: absolute;
+      font-size: 9rem;
+      left: 0;
+      top: 5%;
+      font-weight: 900;
+      color: #e6ba8042;
+      .span2{
+        color: #F9BD97;
+      }
+      .span1{
+        color: #FFAC9F;
+      }
+    }
+    
+  }
+  
+  
+  .tagline-container{
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-25%, -50%);
+      
+      .h1{
+          font-size: 3.1rem;
+          font-weight: 700;
+          color: #000;
+      }
+      .h2{
+          font-size: 2rem;
+          margin-bottom: 1rem;
+      }
+      .p{
+          font-size: .9rem;
+          margin-bottom: 2rem;
+      }
+      
+      .button{
+          width: 10rem;
+          height: 2.5rem;
+          
+          font-size: 1rem;
+          border: none;
+          // background: #
+      }
+  }
 }
