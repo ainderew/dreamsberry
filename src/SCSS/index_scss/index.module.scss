@@ -8,7 +8,7 @@
 }
 
 .hero {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   // background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
     // background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
@@ -34,7 +34,7 @@ background: linear-gradient(to bottom, #6f0000, #200122); /* W3C, IE 10+/ Edge, 
   .water-mark {
     position: absolute;
     font-size: 12rem;
-    left: 0;
+    left: 3%;
     top: 5%;
     font-weight: 900;
     color: #e6ba8042;
@@ -44,15 +44,15 @@ background: linear-gradient(to bottom, #6f0000, #200122); /* W3C, IE 10+/ Edge, 
 
 .tagline-container{
     position: absolute;
-    top: 45%;
-    left: 50%;
+    top: 47%;
+    left: 52%;
     transform: translate(-25%, -50%);
     color: #fff;
     
     .h1{
         font-size: 3.5rem;
         font-weight: 700;
-        line-height: 4rem;
+        // line-height: 4rem;
         // color: #fff;
     }
     .h2{
